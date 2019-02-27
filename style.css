@@ -1,6 +1,75 @@
-// Main CSS File for the Website
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*
+* -=== Main CSS File ===-
+*/
 
-* {
-  font-style: "Roboto", sans-serif;
+/*
+* --- Imports ---
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+/*
+* === Main Styles ===
+*/
+html, body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*
+* --- Parallax ---
+*/
+
+.parallax-container {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    height: 90vh;
+    transform: translateZ(-1px) scale(2.5);
+    z-index: -1;
+    background: black url("./images/frozen_trees.jpg") repeat center center;
+    filter: brightness(60%);
+    background-size: cover;
+}
+
+.content-container {
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.main-header {
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 10vh;
+    font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+/*
+* --- Main Content ---
+*/
+
+.content {
+    padding-top: 10px;
+    margin: auto;
+    max-width: 75vw;
+}
+
+.content h1, h2 {
+    text-align: center;
 }
