@@ -24,6 +24,56 @@ html, body {
 }
 
 /*
+* --- Nav Bar ---
+*/
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-undocked {
+    background-color: #000;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    transition-property: border, background;
+    transition-duration: 0.2s;
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+}
+
+.navbar li a:hover {
+    border-top: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar li .active:hover {
+    border-top: 2px solid rgb(162, 255, 153);
+    background-color: rgba(200, 255, 200, 0.2);
+}
+
+.navbar li .website-name {
+    padding: 14px 50px;
+    font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+.navbar li .website-name:hover {
+    border-top: 2px solid rgba(0, 0, 0, 0);
+}
+
+/*
 * --- Parallax ---
 */
 
