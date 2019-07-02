@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="./style.css">
 	<meta name="robots" content="noindex, nofollow" />
 	<meta name="google-site-verification" content="La6O5baXHb_dq7Y2wyjkN4IBchINxhsMVWTMEAi1jvg" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,9 @@
 		<li><a href="#">Contact</a></li>
 		<li><a href="#">About</a></li>
 	</ul>
-	<div class="main-container">
+
+	<div id="main-container" class="main-container body-not-loaded">
+		<div id="loader"></div>
 		<div class="parallax-container"></div>
 		<div class="main-header">
 			<h1>xethlyx</h1>
@@ -31,4 +34,6 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="./main.js"></script>
 </body>
