@@ -2,10 +2,12 @@
 * -=== Main CSS File ===-
 */
 
-/*
-* --- Imports ---
-*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+:root {
+    --accent-color: #02b757;
+    --background-color: #f4f4f4;
+
+    --standard-box-shadow: 0 2px 3px rgba(25,25,25,0.3);
+}
 
 /*
 * === Main Styles ===
@@ -18,6 +20,7 @@
 html, body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .main-container {
@@ -32,16 +35,21 @@ html, body {
  --- Gif Loader ---
 */
 
-#loader {
+.loader {
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
-    background: #fff url("./images/LoadingAnim.gif") no-repeat center center;
+    z-index: 1000;
+    background: #fff url("./images/loading_animation.gif") no-repeat center center;
     transition: all 1s linear;
     overflow: hidden;
+    user-select: none;
+}
+
+.hidden.loader {
+    pointer-events: none;
 }
 
 .hidden {
@@ -57,15 +65,49 @@ html, body {
 */
 
 .navbar {
+    z-index: 100;
+    background-color: var(--accent-color);
+    height: 52px;
+    width: 100%;
+    top: 0px;
+    position: sticky;
+    box-shadow: var(--standard-box-shadow);
+}
+
+.navbar ul {
+    z-index: 100;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
-    z-index: 100;
 }
 
-.navbar-undocked {
-    background-color: #000;
+.docked {
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.navbar .website-icon-container {
+    float: left;
+    width: 52px;
+    height: 52px;
+}
+
+.navbar .website-icon-container img {
+    transition: transform 0.4s cubic-bezier(0, 0, 0.2, 1);
+    padding: 1px 1px;
+    width: 50px;
+    height: 50px;
+    transform: scale(0.8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .website-icon-container img:hover {
+    transform: scale(1);
+}
+
+.navbar ul {
+    margin-left: 100px;
 }
 
 .navbar li {
@@ -93,13 +135,8 @@ html, body {
     background-color: rgba(200, 255, 200, 0.2);
 }
 
-.navbar li .website-name {
-    padding: 14px 50px;
-    font-family: "Raleway", "Open Sans", sans-serif;
-}
-
-.navbar li .website-name:hover {
-    border-top: 2px solid rgba(0, 0, 0, 0);
+.navbar-transparent {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /*
@@ -110,18 +147,33 @@ html, body {
     display: flex;
     flex: 1 0 auto;
     position: relative;
-    height: 90vh;
+    height: calc(100vh - 52px);
     transform: translateZ(-1px) scale(2.5);
-    z-index: -1;
+    z-index: -2;
     background: black url("./images/frozen_trees.jpg") repeat center center;
     filter: brightness(60%);
+    background-size: cover;
+}
+
+.parallax-logo {
+    display: flex;
+    flex: 1 0 auto;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    top: 10vh;
+    position: absolute;
+    height: 90vh;
+    width: 90vh;
+    transform: translateZ(-0.5px) scale(1.25);
+    z-index: -1;
+    background: #fff0 url("./images/xe_logo.svg") repeat center center;
     background-size: cover;
 }
 
 .content-container {
     display: block;
     position: relative;
-    background-color: white;
+    background-color: var(--background-color);
     z-index: 1;
 }
 
@@ -136,7 +188,7 @@ html, body {
 
 .main-header h1 {
     font-size: 10vh;
-    font-family: "Raleway", "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /*
@@ -147,8 +199,5 @@ html, body {
     padding-top: 10px;
     margin: auto;
     max-width: 75vw;
-}
-
-.content h1, h2 {
-    text-align: center;
+    font-weight: 200;
 }

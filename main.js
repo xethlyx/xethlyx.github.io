@@ -1,12 +1,16 @@
-window.onscroll = function(ev) {
-	if (window.scrollY == 0) {
-		$("#header").addClass("header-transparent");
-	} else {
-		$("#header").removeClass("header-transparent");
-	}
-};
+$(".main-container").scroll(function() {
+	var navbar = $(".navbar");
+
+    if(navbar.offset().top == 0) {
+		navbar.removeClass("docked");
+    } else {
+		if (!navbar.hasClass("docked")) {
+			navbar.addClass("docked");
+		}
+    }
+});
 
 window.onload = function() {
-	$("#main-container").removeClass("body-not-loaded");
-	$("#loader").addClass("hidden");
-}
+	$(".main-container").removeClass("body-not-loaded");
+	$(".loader").addClass("hidden");
+};
