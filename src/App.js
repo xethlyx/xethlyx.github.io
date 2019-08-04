@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
+import Index from './pages/Index';
+import ParallaxBackground from './modules/ParallaxBackground'
+import Header from './modules/Header'
 
 class App extends Component {
   state = {
-    currentPage : "index"
+    currentPage : "Index"
+  };
+  Components = {
+    Index : Index
   }
   render() {
-    const RenderedPage = React.createElement(
-      this.state.currentPage,
-      null
-    )
+    var CurrentPageComponent = this.Components[this.state.currentPage]
 
     return(
       <div className="App">
-        { RenderedPage }
+        <ParallaxBackground />
+        <Header />
+        <div className="content-container">
+          <div className="content">
+            <CurrentPageComponent />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          </div>
+        </div>
       </div>
     )
   };

@@ -1,0 +1,20 @@
+#root {
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+}
+
+.content-container {
+    display: block;
+    position: relative;
+    background-color: var(--background-color);
+    z-index: 1;
+}
+
+.content {
+    padding-top: 10px;
+    margin: auto;
+    max-width: 75vw;
+    font-weight: 200;
+}
