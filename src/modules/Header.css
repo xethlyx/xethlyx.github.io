@@ -16,7 +16,7 @@
 }
 
 .docked {
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 .navbar .website-icon-container {
@@ -62,6 +62,10 @@
 .navbar li a:hover {
     border-top: 2px solid white;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar li .active {
+    border-top: 2px solid rgb(162, 255, 153);
 }
 
 .navbar li .active:hover {

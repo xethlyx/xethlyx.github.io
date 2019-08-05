@@ -7,7 +7,7 @@ const ParallaxBackground = (props) => {
   return (
     <div className="parallax-module-container">
       <div className="parallax-container"></div>
-      <img className="parallax-logo" src={logo} />
+      <img className="parallax-logo" src={logo} alt="" />
       <div className="main-header">
         <h1>xethlyx</h1>
         <h3>My personal website</h3>
