@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spakespeare Insult Generator</title>
+        <style>
+            body {
+                font-family: "Source Sans Pro", sans-serif;
+                text-align: center;
+                background-color: #e74c3c;
+                color: #fff;
+                padding: 20px;
+            }
+            
+            h1 {
+                
+            }
+            
+            button {
+                font-family: "Source Sans pro", sans-serif;
+                background-color: #fff;
+                border: 0;
+                width: 200px;
+                height: 30px;
+                box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+            }
+            
+            button:hover {
+                box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+        <script>
+        const columnA = ["bawdy", "brazen", "curlish", "distempered", "fitful", "gnarling", "greasy", "grizled", "haughty", "hedeous", "jaded", "knavish", "lewd", "peevish", "pernicious", "prating", "purpled", "queasy", "rank", "reeky", "roynish", "saucy", "sottish", "unmizzled", "vacant", "waggish", "wanton", "wenching", "whoresome", "yeasty"];
+        const columnB = ["bunch-backed", "clay-brained", "dog-hearted", "empty-hearted", "evil-eyed", "eye-offending", "fat-kidneyed", "heavy-headed", "horn-mad", "ill-breeding", "ill-composed", "ill-nurtured", "iron-witted", "lean-witted", "lily-livered", "mad-bread", "motley-minded", "muddy-mettled", "onion-eyed", "pale-hearted", "paper-faced", "pinch-spotted", "raw-boned", "rug-headed", "rump-fed", "shag-eared", "shrill-gorged", "sour-faced", "weak-hinged", "white-livered"];
+        const columnC = ["canker-blossom", "clotpole", "crutch", "cutpurse", "dogfish", "egg-shell", "gull-catcher", "hedge-pig", "hempseed", "jack-a-nape", "malkin", "malignacy", "malt-worm", "manikin", "minimus", "miscreant", "moldwarp", "nut-hook", "pantaloon", "rabbit-sucker", "rampallion", "remnant", "rudesby", "ruffian", "scantling", "scullion", "snipe", "waterfly", "whipster", "younker"];
+        
+            
+        function generateInsult() {
+            document.getElementById("generated-insult").innerHTML = columnA[Math.floor(Math.random() * columnA.length)] + " " + columnB[Math.floor(Math.random() * columnB.length)] + " " + columnC[Math.floor(Math.random() * columnC.length)];
+        }
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Shakespare Insult Generator</h1>
+        <p id="generated-insult">Press the button below to generate an insult.</p>
+        <br><br>
+        <button onclick="generateInsult()">Generate</button>
+    </body>
+</html>
