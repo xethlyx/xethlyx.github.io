@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spakespeare Insult Generator</title>
+    <style>
+      body {
+        font-family: "Source Sans Pro", sans-serif;
+        text-align: center;
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        height: 100vh;
+        color: #fff;
+        padding: 20px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .vertical-container {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        border-radius: 4px;
+        max-width: 650px;
+        background-color: rgb(34, 34, 43);
+        padding: 40px;
+      }
+
+      button {
+        font-family: "Source Sans pro", sans-serif;
+        background-color: #fff;
+        border: 0;
+        width: 200px;
+        height: 30px;
+        box-shadow: 0 1px 10px rgba(255, 255, 255, 0.3);
+      }
+
+      button:hover {
+        box-shadow: 0 3px 10px rgba(255, 255, 255, 0.3);
+      }
+    </style>
+    <script>
+    'use strict';
+    
+    const columnA = ["bawdy", "brazen", "curlish", "distempered", "fitful", "gnarling", "greasy", "grizled", "haughty", "hedeous", "jaded", "knavish", "lewd", "peevish", "pernicious", "prating", "purpled", "queasy", "rank", "reeky", "roynish", "saucy", "sottish", "unmizzled", "vacant", "waggish", "wanton", "wenching", "whoresome", "yeasty"];
+    const columnB = ["bunch-backed", "clay-brained", "dog-hearted", "empty-hearted", "evil-eyed", "eye-offending", "fat-kidneyed", "heavy-headed", "horn-mad", "ill-breeding", "ill-composed", "ill-nurtured", "iron-witted", "lean-witted", "lily-livered", "mad-bread", "motley-minded", "muddy-mettled", "onion-eyed", "pale-hearted", "paper-faced", "pinch-spotted", "raw-boned", "rug-headed", "rump-fed", "shag-eared", "shrill-gorged", "sour-faced", "weak-hinged", "white-livered"];
+    const columnC = ["canker-blossom", "clotpole", "crutch", "cutpurse", "dogfish", "egg-shell", "gull-catcher", "hedge-pig", "hempseed", "jack-a-nape", "malkin", "malignacy", "malt-worm", "manikin", "minimus", "miscreant", "moldwarp", "nut-hook", "pantaloon", "rabbit-sucker", "rampallion", "remnant", "rudesby", "ruffian", "scantling", "scullion", "snipe", "waterfly", "whipster", "younker"];
+
+
+    function generateInsult() {
+      document.getElementById("generated-insult").innerHTML = (
+        columnA[Math.floor(Math.random() * columnA.length)] + " "
+        + columnB[Math.floor(Math.random() * columnB.length)] + " "
+        + columnC[Math.floor(Math.random() * columnC.length)]
+      );
+    }
+
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="vertical-container">
+      <div class="container">
+        <h1>Shakespare Insult Generator</h1>
+        <p>Thou art a(n)..</p>
+        <p id="generated-insult">Press the button below to generate an insult.</p>
+        <br><br>
+        <button onclick="generateInsult()">Generate</button>
+      </div>
+  </div>
+  </body>
+</html>
