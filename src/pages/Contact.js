@@ -9,8 +9,9 @@ class Index extends Component {
       <div>
         <h2>Contact</h2>
 				<p>You can reach me at:<br /><br />
-          <b>Discord </b>Xethlyx#7468<br />
-          <b>Roblox </b>xethlyx<br />
+          <b>Discord </b>xethlyx#8616<br />
+          <b>Instagram </b><a href="https://instagram.com/xethlyx/">@xethlyx</a><br />
+          <b>Github </b> <a href="https://github.com/xethlyx/">xethlyx</a><br />
         </p>
       </div>
     )

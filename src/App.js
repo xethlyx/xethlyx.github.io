@@ -46,7 +46,7 @@ class App extends Component {
     let scrollTop = document.getElementById("navbar").offsetTop
 
     if (window.innerHeight - scrollTop !== 52) {
-      if (this.state.headerDocked !== false ) {
+      if (this.state.headerDocked !== false) {
         this.setState({
           headerDocked: false
         });
@@ -61,7 +61,7 @@ class App extends Component {
   }
 
   handleTransitionVisibility = (content) => {
-    var currentAnimClass = "anim-" + content + "-" + (this.state.animCounter % 2 + 1)
+    let currentAnimClass = "anim-" + content + "-" + (this.state.animCounter % 2 + 1)
 
     if ((this.state.previousPage === this.state.currentPage) && (content === "old")) {
       return("content hidden " + content + "-content " + currentAnimClass)
@@ -71,8 +71,8 @@ class App extends Component {
   }
 
   render() {
-    var CurrentPageComponent = this.Components[this.state.currentPage]
-    var PreviousPageComponent = this.Components[this.state.previousPage]
+    let CurrentPageComponent = this.Components[this.state.currentPage]
+    let PreviousPageComponent = this.Components[this.state.previousPage]
 
     return(
       <div className="App">
