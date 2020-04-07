@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4820b0c.chunk.css",
-    "main.js": "/static/js/main.1e1faa9a.chunk.js",
-    "main.js.map": "/static/js/main.1e1faa9a.chunk.js.map",
+    "main.css": "/static/css/main.399fda3c.chunk.css",
+    "main.js": "/static/js/main.9497bcfa.chunk.js",
+    "main.js.map": "/static/js/main.9497bcfa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ad264d5c.js",
     "runtime-main.js.map": "/static/js/runtime-main.ad264d5c.js.map",
     "static/js/2.d37d389d.chunk.js": "/static/js/2.d37d389d.chunk.js",
     "static/js/2.d37d389d.chunk.js.map": "/static/js/2.d37d389d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b13bd440a9277b5eb24c3fbb515680a5.js": "/precache-manifest.b13bd440a9277b5eb24c3fbb515680a5.js",
+    "precache-manifest.2006952021f41ffeb65d1fb678f6251c.js": "/precache-manifest.2006952021f41ffeb65d1fb678f6251c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f4820b0c.chunk.css.map": "/static/css/main.f4820b0c.chunk.css.map",
+    "static/css/main.399fda3c.chunk.css.map": "/static/css/main.399fda3c.chunk.css.map",
     "static/js/2.d37d389d.chunk.js.LICENSE.txt": "/static/js/2.d37d389d.chunk.js.LICENSE.txt",
     "static/media/ParallaxBackground.css": "/static/media/frozen_trees.a1579a32.jpg",
     "static/media/xe_logo.svg": "/static/media/xe_logo.8c861a22.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ad264d5c.js",
     "static/js/2.d37d389d.chunk.js",
-    "static/css/main.f4820b0c.chunk.css",
-    "static/js/main.1e1faa9a.chunk.js"
+    "static/css/main.399fda3c.chunk.css",
+    "static/js/main.9497bcfa.chunk.js"
   ]
 }
