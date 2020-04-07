@@ -22,12 +22,12 @@ const Header = (props) => {
 
   return (
     <div id="navbar" className={getNavbarClasses()}>
-        <a href="./index.html" className="website-icon-container"><img src={logo} alt="XE"/></a>
+        <a href="#begin" className="website-icon-container"><img src={logo} alt="XE"/></a>
         <ul>
-            <li><a id="Home" className={isElementActive("Home")} onClick={props.handleChangePage} href="#content">Home</a></li>
-            <li><a id="Creations" className={isElementActive("Creations")} onClick={props.handleChangePage} href="#content">Creations</a></li>
-            <li><a id="Contact" className={isElementActive("Contact")} onClick={props.handleChangePage} href="#content">Contact</a></li>
-            <li><a id="About" className={isElementActive("About")} onClick={props.handleChangePage} href="#content">About</a></li>
+            <li><a id="Home" className={isElementActive("Home")} onClick={props.handleChangePage} href="#navbar">Home</a></li>
+            <li><a id="Creations" className={isElementActive("Creations")} onClick={props.handleChangePage} href="#navbar">Creations</a></li>
+            <li><a id="Contact" className={isElementActive("Contact")} onClick={props.handleChangePage} href="#navbar">Contact</a></li>
+            <li><a id="About" className={isElementActive("About")} onClick={props.handleChangePage} href="#navbar">About</a></li>
         </ul>
     </div>
   )

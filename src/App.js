@@ -75,8 +75,8 @@ class App extends Component {
     let PreviousPageComponent = this.Components[this.state.previousPage]
 
     return(
-      <div className="App">
-        <ParallaxBackground />
+      <div id="begin" className="App">
+        <ParallaxBackground handleChangePage={this.handleChangePage} />
         <Header handleChangePage={this.handleChangePage} currentPage={this.state.currentPage} docked={this.state.headerDocked}/>
         <div className="content-container">
           <div className={this.handleTransitionVisibility("current")}>
