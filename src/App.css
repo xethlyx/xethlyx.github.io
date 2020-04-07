@@ -16,9 +16,9 @@
 .content {
     position: absolute;
     padding-top: 10px;
-    left: 12.5vh;
+    left: 100px;
     top: 0;
-    width: 75vw;
+    width: calc(100vw - 200px);
     font-weight: 200;
 }
 
@@ -85,3 +85,9 @@ table, th, td {
     100% { opacity: 0; }
 }
 
+@media only screen and (max-width: 600px) {
+    .content {
+        left: 12.5vw;
+        width: 75vw;
+    }
+} 
