@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0aae1b507a6c0a3441bb28f02fbd71b",
+    "revision": "ca07a693a2044e2412f1cb059c48da0d",
     "url": "/index.html"
   },
   {
-    "revision": "23721812e40c69028efc",
-    "url": "/static/css/main.bf1eeb16.chunk.css"
+    "revision": "5ad5cd34f4d0df1176e7",
+    "url": "/static/css/main.e9ff29cd.chunk.css"
   },
   {
     "revision": "44e7622a52ddb0ff449b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d37d389d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23721812e40c69028efc",
+    "revision": "5ad5cd34f4d0df1176e7",
     "url": "/static/js/main.9497bcfa.chunk.js"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/runtime-main.ad264d5c.js"
   },
   {
-    "revision": "a1579a3221b90c3e2d01ee61c893b727",
-    "url": "/static/media/frozen_trees.a1579a32.jpg"
+    "revision": "b2ace9c720834f10d5eff2bf73f019ef",
+    "url": "/static/media/background.b2ace9c7.webp"
   },
   {
     "revision": "8c861a22e239db8aa92e5d73c2758d7a",
