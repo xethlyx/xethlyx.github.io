@@ -5,7 +5,7 @@
     height: calc(100vh - 52px);
     transform: translateZ(-1px) scale(2.5);
     z-index: -2;
-    background: black url("../images/frozen_trees.jpg") repeat center center;
+    background: black url("../images/background.webp") repeat center center;
     filter: brightness(60%);
     background-size: cover;
 }
