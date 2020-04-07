@@ -8,7 +8,8 @@ class Index extends Component {
     return (
       <div>
         <h2>Creations</h2>
-				<p>Creations? Not a lot. Maybe some other time.</p>
+        <p>It's empty here.</p>
+        <p>You can find all of my recent creations on <a href="https://github.com/xethlyx/">Github</a>.</p>
       </div>
     )
   }

@@ -8,7 +8,7 @@ class Index extends Component {
     return (
       <div>
         <h2>Xethlyx's Personal Website</h2>
-				<p>Hello, welcome to my personal website where I showcase my accomplishments, creations, etc. As of right now, this website is in development. Updates will likely be infrequent and spread out.</p>
+				<p>Hello, welcome to my personal website! If you need to reach me for any reason, my contact info is available in the Contact tab.</p>
       </div>
     )
   }
