@@ -1,0 +1,130 @@
+@media only screen and (max-width: 600px) {
+    button.wide {
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+
+    header.open {
+        background-color: var(--dark-background);
+        max-height: 190px;
+    }
+
+    header {
+        height: auto;
+        overflow: hidden;
+
+        transition: all 0.3s var(--sharp-transition);
+    }
+
+    header ul {
+        float: left;
+    }
+
+    header ul li.space-bottom {
+        margin-bottom: 20px;
+    }
+
+    header .icon {
+        float: right;
+        color: var(--text-bright);
+
+        height: 35px;
+        width: 35px;
+
+        margin: 16px;
+
+        text-align: center;
+    }
+
+    header .icon i {
+        margin-top: 10px;
+        line-height: 100%;
+    }
+
+    header li {
+        float: none;
+    }
+    
+    header .icon {
+        display: block;
+    }
+
+
+
+
+
+    .main-cover {
+        text-align: center;
+    }
+
+    .main-cover .spacer {
+        display: none;
+    }
+
+    .main-cover .cover-float {
+        margin: 0;
+    }
+
+    .main-cover .button-container {
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-cover .button-container button {
+        margin: 6px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .contact-card {
+        margin: 10px;
+
+        height: auto;
+    }
+
+    .contact-card .content a.button {
+        position: inherit;
+    
+        margin-top: 20px;
+        width: calc(100% - 20px);
+    }
+
+    .contact-card.large {
+        order: 1;
+        height: auto;
+    }
+
+    .contact-card-container {
+        flex-direction: column;
+
+        align-items: stretch;
+
+        margin: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .contact-card-container {
+        margin: 10px 2.5vw 0 2.5vw;
+    }
+
+    .contact-card {
+        margin: 0.5vw;
+    }
+
+    .contact-card .content {
+        margin: 12%;
+    }
+}
