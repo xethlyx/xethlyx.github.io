@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "next build && next export && echo xethlyx.com > out/CNAME && echo. 2>out/.nojekyll",
-    "deploy": "gh-pages -b master -d out"
+    "deploy": "gh-pages -b master -d out --dotfiles"
   },
   "keywords": [],
   "author": "",
