@@ -8,8 +8,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out"
+    "predeploy": "next build && next export && echo xethlyx.com > out/CNAME",
+    "deploy": "gh-pages -b master -d out"
   },
   "keywords": [],
   "author": "",
