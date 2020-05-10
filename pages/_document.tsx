@@ -15,11 +15,9 @@ class MyDocument extends Document {
 			<link rel="icon" type="image/png" href="/favicon-196.png" sizes="196x196" />
 			<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Jost:wght@400;700&display=swap" rel="stylesheet" />
 
-			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<meta name="theme-color" content="#348cff" />
 
 			<meta property="og:site_name" content="XETHLYX" />
-			{/* <meta property="og:title" content="Homepage" /> */}
 			<meta property="og:description" content="Hello! Welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616)." />
 			<meta property="og:type" content="website" />
 			<meta property="og:image" content="%PUBLIC_URL%/icon-max.png" />
