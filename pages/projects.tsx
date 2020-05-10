@@ -8,6 +8,8 @@ const Projects = () => (
 		<Head>
 			<title>Projects | XETHLYX</title>
 			<meta property="og:title" content="Projects" />
+			<meta property="og:description" content="If you're looking for my projects, you can find them on Github. This page is currently unfinished." />
+			<meta name="description" content="If you're looking for my projects, you can find them on Github. This page is currently unfinished."/>
 		</Head>
 		<NavBar selected="projects" transparent={false}/>
 		<div className="contact">

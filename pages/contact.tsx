@@ -9,6 +9,8 @@ const Contact = () => (
 		<Head>
 			<title>Contact | XETHLYX</title>
 			<meta property="og:title" content="Contact" />
+			<meta property="og:description" content="Need me for anything? You can reach me at any of the links on this page. I always recommend Discord if you can." />
+			<meta name="description" content="Need me for anything? You can reach me at any of the links on this page. I always recommend Discord if you can."/>
 		</Head>
 		<NavBar selected="contact" transparent={false}/>
     	<div className="contact">

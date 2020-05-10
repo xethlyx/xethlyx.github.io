@@ -19,11 +19,10 @@ class MyDocument extends Document {
 			<meta name="theme-color" content="#348cff" />
 
 			<meta property="og:site_name" content="XETHLYX" />
-			<meta property="og:description" content="Hello! Welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616)." />
 			<meta property="og:type" content="website" />
-			<meta property="og:image" content="%PUBLIC_URL%/icon-max.png" />
+			<meta property="og:image" content="/icon-max.png" />
 
-			<meta name="description" content="Hello! I'm xethlyx, and welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616)."/>
+			<meta name="keywords" content="xethlyx" />
 		</Head>
 		<body>
 			<Main />

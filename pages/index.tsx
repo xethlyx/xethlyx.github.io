@@ -12,6 +12,8 @@ const Index = () => (
 		<Head>
 			<title>Home | XETHLYX</title>
 			<meta property="og:title" content="Homepage" />
+			<meta property="og:description" content="Hello! Welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616)." />
+			<meta name="description" content="Hello! I'm xethlyx, and welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616)."/>
 		</Head>
 		<NavBar selected="home" transparent={true}/>
 		<div className="main-cover" style={{
