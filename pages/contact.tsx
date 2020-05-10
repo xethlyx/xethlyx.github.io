@@ -8,6 +8,7 @@ const Contact = () => (
     <React.Fragment>
 		<Head>
 			<title>Contact | XETHLYX</title>
+			<meta property="og:title" content="Contact" />
 		</Head>
 		<NavBar selected="contact" transparent={false}/>
     	<div className="contact">

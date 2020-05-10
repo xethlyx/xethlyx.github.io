@@ -7,6 +7,7 @@ const Projects = () => (
 	<React.Fragment>
 		<Head>
 			<title>Projects | XETHLYX</title>
+			<meta property="og:title" content="Projects" />
 		</Head>
 		<NavBar selected="projects" transparent={false}/>
 		<div className="contact">

@@ -11,6 +11,7 @@ const Index = () => (
 	<React.Fragment>
 		<Head>
 			<title>Home | XETHLYX</title>
+			<meta property="og:title" content="Homepage" />
 		</Head>
 		<NavBar selected="home" transparent={true}/>
 		<div className="main-cover" style={{
