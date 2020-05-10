@@ -42,7 +42,7 @@ const NavBar = ({selected, transparent}: {selected: string, transparent: boolean
 				<i className="fa fa-bars"></i>
 			</a>
 			<ul>
-				<li className="space-bottom"><Link href="/"><a><img src={Logo} /></a></Link></li>
+				<li className="space-bottom"><Link href="/"><a><img src={Logo} alt="xethlyx" /></a></Link></li>
 				<li className={selected === 'home' ? 'active' : ''}><Link href="/"><a>Home</a></Link></li>
 				<li className={selected === 'contact' ? 'active' : ''}><Link href="/contact"><a>Contact</a></Link></li>
 				<li className={selected === 'projects' ? 'active' : ''}><Link href="/projects"><a>Projects</a></Link></li>
