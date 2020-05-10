@@ -30,7 +30,7 @@ const Index = () => (
 		</div>
 		<div className="main-footer">
 			<div className="footer-float">
-				<h3>About Me</h3>
+				<h3>About xethlyx</h3>
 				<p>Hello! Welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616). I do various types of programming in my free time, including this website that is currently loaded in your browser.</p>
 			</div>
 		</div>
