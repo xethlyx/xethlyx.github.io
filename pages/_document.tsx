@@ -14,7 +14,7 @@ class MyDocument extends Document {
 			<link rel="apple-touch-icon" type="image/png" href="/favicon-180.png" sizes="180x180" />
 			<link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
 			<link rel="icon" type="image/png" href="/favicon-196.png" sizes="196x196" />
-			<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet" />
 
 			<meta name="theme-color" content="#348cff" />
 
