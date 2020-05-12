@@ -5128,13 +5128,31 @@ var Contact = function Contact() {
       lineNumber: 11,
       columnNumber: 4
     }
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "Need me for anything? You can reach me at any of the links on this page. I always recommend Discord if you can.",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 4
+    }
+  }), __jsx("meta", {
+    name: "description",
+    content: "Need me for anything? You can reach me at any of the links on this page. I always recommend Discord if you can.",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 4
+    }
   })), __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     selected: "contact",
     transparent: false,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 15,
       columnNumber: 3
     }
   }), __jsx("div", {
@@ -5142,21 +5160,21 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 16,
       columnNumber: 6
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 17,
       columnNumber: 4
     }
   }, "Looking for me?"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 18,
       columnNumber: 4
     }
   }, "Please use the links below.")), __jsx("div", {
@@ -5164,7 +5182,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 3
     }
   }, __jsx("div", {
@@ -5172,7 +5190,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 4
     }
   }, __jsx("div", {
@@ -5183,7 +5201,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 5
     }
   }), __jsx("div", {
@@ -5191,21 +5209,21 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 5
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 6
     }
   }, "Github"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 25,
       columnNumber: 6
     }
   }, "My projects are on here. If you want to reach me regarding the projects, this would be a good first place to go."), __jsx("a", {
@@ -5214,14 +5232,14 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 26,
       columnNumber: 6
     }
   }, "View my projects", __jsx(_components_buttonArrow__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 26,
       columnNumber: 84
     }
   })))), __jsx("div", {
@@ -5229,7 +5247,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 29,
       columnNumber: 4
     }
   }, __jsx("div", {
@@ -5240,7 +5258,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 30,
       columnNumber: 5
     }
   }), __jsx("div", {
@@ -5248,21 +5266,21 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 5
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 32,
       columnNumber: 6
     }
   }, "Discord"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 33,
       columnNumber: 6
     }
   }, "If you need me for whatever reason, I'm almost always reachable at xethlyx#8616."), __jsx("img", {
@@ -5271,7 +5289,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 34,
       columnNumber: 6
     }
   }), __jsx("a", {
@@ -5280,14 +5298,14 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 6
     }
   }, "Ping me", __jsx(_components_buttonArrow__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 63
     }
   })))), __jsx("div", {
@@ -5295,7 +5313,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 38,
       columnNumber: 4
     }
   }, __jsx("div", {
@@ -5306,7 +5324,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 5
     }
   }), __jsx("div", {
@@ -5314,21 +5332,21 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 5
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 6
     }
   }, "Instagram"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 6
     }
   }, "No. Don't even try."), __jsx("a", {
@@ -5337,14 +5355,14 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 6
     }
   }, "Get rick rolled", __jsx(_components_buttonArrow__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 100
     }
   }))))));

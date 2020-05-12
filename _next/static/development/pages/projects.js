@@ -1,15 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
-
-/***/ "./background.webp":
-/*!*************************!*\
-  !*** ./background.webp ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/background-8df5af13e52dc2e27fd2bb044d089cdb.webp";
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\projects.js"],{
 
 /***/ "./components/arrow.svg":
 /*!******************************!*\
@@ -905,23 +894,23 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cindex.tsx&hotRouterUpdates=true!./":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cindex.tsx&hotRouterUpdates=true ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cprojects.tsx&hotRouterUpdates=true!./":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cprojects.tsx&hotRouterUpdates=true ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P = window.__NEXT_P || []).push([
-      "/",
+      "/projects",
       function () {
-        var mod = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx");
+        var mod = __webpack_require__(/*! ./pages/projects.tsx */ "./pages/projects.tsx");
         if (true) {
-          module.hot.accept(/*! ./pages/index.tsx */ "./pages/index.tsx", function () {
-            if (!next.router.components["/"]) return;
-            var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx");
-            next.router.update("/", updatedPage);
+          module.hot.accept(/*! ./pages/projects.tsx */ "./pages/projects.tsx", function () {
+            if (!next.router.components["/projects"]) return;
+            var updatedPage = __webpack_require__(/*! ./pages/projects.tsx */ "./pages/projects.tsx");
+            next.router.update("/projects", updatedPage);
           });
         }
         return mod;
@@ -5084,10 +5073,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ "./pages/projects.tsx":
+/*!****************************!*\
+  !*** ./pages/projects.tsx ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5097,14 +5086,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.tsx");
-/* harmony import */ var _background_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../background.webp */ "./background.webp");
-/* harmony import */ var _background_webp__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_background_webp__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_buttonArrow__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/buttonArrow */ "./components/buttonArrow.tsx");
+/* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.tsx");
+/* harmony import */ var _components_buttonArrow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/buttonArrow */ "./components/buttonArrow.tsx");
 var _this = undefined,
-    _jsxFileName = "c:\\Users\\xethl\\source\\repos\\xethlyx\\xethlyx.github.io\\xethlyx.github.io\\pages\\index.tsx";
+    _jsxFileName = "c:\\Users\\xethl\\source\\repos\\xethlyx\\xethlyx.github.io\\xethlyx.github.io\\pages\\projects.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5112,206 +5097,117 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-var Index = function Index() {
+var Projects = function Projects() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 7,
       columnNumber: 2
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 8,
       columnNumber: 3
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 9,
       columnNumber: 4
     }
-  }, "Home | XETHLYX"), __jsx("meta", {
+  }, "Projects | XETHLYX"), __jsx("meta", {
     property: "og:title",
-    content: "Homepage",
+    content: "Projects",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 10,
       columnNumber: 4
     }
   }), __jsx("meta", {
     property: "og:description",
-    content: "Hello! Welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616).",
+    content: "If you're looking for my projects, you can find them on Github. This page is currently unfinished.",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 11,
       columnNumber: 4
     }
   }), __jsx("meta", {
     name: "description",
-    content: "Hello! I'm xethlyx, and welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616).",
+    content: "If you're looking for my projects, you can find them on Github. This page is currently unfinished.",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 4
+    }
+  })), __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    selected: "projects",
+    transparent: false,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 3
+    }
+  }), __jsx("div", {
+    className: "contact",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 3
+    }
+  }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 4
     }
-  })), __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    selected: "home",
-    transparent: true,
+  }, "Unfinished"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 4
+    }
+  }, "This page is unfinished. If you want to view my projects, feel free to head over to my github page."), __jsx("a", {
+    href: "https://github.com/xethlyx",
+    className: "button",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
-      columnNumber: 3
-    }
-  }), __jsx("div", {
-    className: "main-cover",
-    style: {
-      background: "var(--background) url(".concat(_background_webp__WEBPACK_IMPORTED_MODULE_4___default.a, ") no-repeat center center"),
-      backgroundSize: 'cover'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 3
-    }
-  }, __jsx("div", {
-    className: "cover-float",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
       columnNumber: 4
     }
-  }, __jsx("div", {
-    className: "spacer",
+  }, "Visit my Github ", __jsx(_components_buttonArrow__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 5
+      lineNumber: 18,
+      columnNumber: 76
     }
-  }), __jsx("h1", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 5
-    }
-  }, "xethlyx"), __jsx("h2", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 5
-    }
-  }, "aspiring jack of all trades developer"), __jsx("div", {
-    className: "button-container",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 5
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/contact",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 6
-    }
-  }, __jsx("button", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 28
-    }
-  }, "Contact me", __jsx(_components_buttonArrow__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 46
-    }
-  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/projects",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 6
-    }
-  }, __jsx("button", {
-    className: "muted wide",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 29
-    }
-  }, "See my projects", __jsx(_components_buttonArrow__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 75
-    }
-  })))))), __jsx("div", {
-    className: "main-footer",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 3
-    }
-  }, __jsx("div", {
-    className: "footer-float",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 4
-    }
-  }, __jsx("h3", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 5
-    }
-  }, "About xethlyx"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 5
-    }
-  }, "Hello! Welcome to my personal web page. It's quite deserted, you're better off trying to find me on Discord (xethlyx#8616). I do various types of programming in my free time, including this website that is currently loaded in your browser."))));
+  }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cindex.tsx&hotRouterUpdates=true ***!
-  \**************************************************************************************************************************************************************************************************/
+/***/ 3:
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cprojects.tsx&hotRouterUpdates=true ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cindex.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cindex.tsx&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fprojects&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cprojects.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=c%3A%5CUsers%5Cxethl%5Csource%5Crepos%5Cxethlyx%5Cxethlyx.github.io%5Cxethlyx.github.io%5Cpages%5Cprojects.tsx&hotRouterUpdates=true!./");
 
 
 /***/ }),
@@ -5327,5 +5223,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=projects.js.map
