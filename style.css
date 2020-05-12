@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Jost', sans-serif;
     background: var(--background);
     color: var(--text-bright);
 }
