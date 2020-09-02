@@ -169,7 +169,7 @@ var NavBar = function NavBar(_ref) {
       columnNumber: 4
     }
   }, __jsx("i", {
-    className: "fa fa-bars",
+    className: "fa fa-bars swap",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
